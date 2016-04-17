@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/1.5 Tahoma, 'Microsoft YaHe', Helvetica, Arial, '宋体', sans-serif;
+    color: #000;
+}
+
+.wrap {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.tb1,
+.tb2 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    max-width: 960px;
+    min-width: 300px;
+}
+
+.tb1 tr th,
+.tb1 tr td,
+.tb2 tr th,
+.tb2 tr td {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.tb1 td,
+.tb2 td {
+    padding: 5px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    color: #272727;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin: 5px 0 0 0;
+}
+
+.frame ul li {
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+
+.expression .exp{
+	font-size: 1.2em;
+	display: block;
+	margin: 5px;
+}
+
+.finally .strategy {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-indent: 1.2em;
+}
+
+.finally ul li,
+.ziji ol li {
+    margin: 5px 50px;
+    font-size: 1.2em;
+}
+
+.ziji .ys {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.ziji .center {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+}
